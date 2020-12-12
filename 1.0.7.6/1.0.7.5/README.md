@@ -11,7 +11,7 @@
 
 or
 ## Perform the following file changes in each commit:
-* (https://github.com/gburton/CE-Phoenix/compare/1.0.7.4...1.0.7.5)
+* (https://github.com/gburton/CE-Phoenix/compare/1.0.7.5...1.0.7.6)
 ## After Update:
 * Visit the Security Check page in your admin area, and fix any warnings that show.
 * Visit the all new info_pages system at admin > tools > Info Pages
