@@ -15,12 +15,20 @@
         "set": "boxes",
         "modules": [
           "bm_card_acceptance.php",
+          "bm_manufacturers.php",
           "bm_product_social_bookmarks.php"
         ]
       }
     ],
     "required_modules_install": [],
-    "optional_modules_install": [],
+    "optional_modules_install": [
+      {
+        "set": "boxes",
+        "modules": [
+          "bm_manufacturers.php"
+        ]
+      }
+    ],
     "optional_files_delete": [],
     "required_files_delete": [
       "admin/includes/classes/rss.php",

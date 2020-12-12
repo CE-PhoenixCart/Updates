@@ -20,6 +20,15 @@
         "modules":  [
           "bm_best_sellers.php"
         ]
+      },
+      {
+        "set": "customer_data",
+        "modules":  [
+          "cd_dob.php",
+          "cd_fax.php",
+          "cd_gender.php",
+          "cd_suburb.php"
+        ]
       }
     ],
     "optional_files_delete": [],

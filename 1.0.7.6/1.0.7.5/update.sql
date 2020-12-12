@@ -1,4 +1,4 @@
-CREATE TABLE pages (
+CREATE TABLE IF NOT EXISTS pages (
   pages_id int NOT NULL auto_increment,
   date_added datetime,
   last_modified datetime,
@@ -8,7 +8,7 @@ CREATE TABLE pages (
   PRIMARY KEY (pages_id)
 ) CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 
-CREATE TABLE pages_description (
+CREATE TABLE IF NOT EXISTS pages_description (
   pages_id int NOT NULL,
   languages_id int NOT NULL,
   pages_title varchar(255) NOT NULL,
@@ -17,4 +17,5 @@ CREATE TABLE pages_description (
   PRIMARY KEY (pages_id, languages_id)
 ) CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 
-INSERT INTO configuration (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, set_function, date_added) VALUES ('Template Selection', 'TEMPLATE_SELECTION', 'default', 'The template to use to display the shop.', '1', '5', 'tep_cfg_select_template(', NOW());
+INSERT INTO configuration (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, set_function, date_added)
+    VALUES ('Template Selection', 'TEMPLATE_SELECTION', 'default', 'The template to use to display the shop.', 1, 5, 'tep_cfg_select_template(', NOW());
