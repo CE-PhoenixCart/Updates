@@ -1,21 +1,91 @@
-{
+  {
     "required_modules_remove": [
       {
         "set": "boxes",
         "modules":  [
           "bm_categories.php"
         ]
+      },
+      {
+        "set": "customer_data",
+        "modules":  [
+          "cd_address_book_id.php",
+          "cd_city.php",
+          "cd_company.php",
+          "cd_country.php",
+          "cd_date_account_created.php",
+          "cd_default_address_id.php",
+          "cd_dob.php",
+          "cd_email_address.php",
+          "cd_email_username.php",
+          "cd_fax.php",
+          "cd_firstname.php",
+          "cd_gender.php",
+          "cd_id.php",
+          "cd_lastname.php",
+          "cd_name_2.php",
+          "cd_newsletter.php",
+          "cd_password_confirmation.php",
+          "cd_password.php",
+          "cd_password_reset.php",
+          "cd_postcode.php",
+          "cd_sortable_name_2.php",
+          "cd_state.php",
+          "cd_street_address.php",
+          "cd_suburb.php",
+          "cd_telephone.php",
+          "cd_traditional_address.php",
+          "cd_traditional_short_name.php"
+        ]
       }
     ],
     "required_modules_install": [
+      {
+        "set": "customer_data",
+        "modules":  [
+          "cd_address_book_id.php",
+          "cd_city.php",
+          "cd_country.php",
+          "cd_date_account_created.php",
+          "cd_default_address_id.php",
+          "cd_email_address.php",
+          "cd_email_username.php",
+          "cd_firstname.php",
+          "cd_id.php",
+          "cd_lastname.php",
+          "cd_name_2.php",
+          "cd_password.php",
+          "cd_password_reset.php",
+          "cd_postcode.php",
+          "cd_sortable_name_2.php",
+          "cd_street_address.php",
+          "cd_traditional_address.php",
+          "cd_traditional_short_name.php"
+        ]
+      }
+    ],
+    "optional_modules_install": [
       {
         "set": "boxes",
         "modules":  [
           "bm_categories.php"
         ]
+      },
+      {
+        "set": "customer_data",
+        "modules":  [
+          "cd_company.php",
+          "cd_dob.php",
+          "cd_fax.php",
+          "cd_gender.php",
+          "cd_newsletter.php",
+          "cd_password_confirmation.php",
+          "cd_state.php",
+          "cd_suburb.php",
+          "cd_telephone.php"
+        ]
       }
     ],
-    "optional_modules_install": [],
     "optional_files_delete": [],
     "required_files_delete": []
   }
