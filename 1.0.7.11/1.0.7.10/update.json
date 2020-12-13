@@ -1,0 +1,10 @@
+{
+    "required_modules_remove": [],
+    "required_modules_install": [],
+    "optional_modules_install": [],
+    "optional_files_delete": [],
+    "required_files_delete": [
+      "admin/includes/classes/currencies.php",
+      "includes/system/versioned/1.0.7.10/osc_template.php"
+    ]
+  }
