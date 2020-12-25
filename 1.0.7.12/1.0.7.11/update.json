@@ -1,0 +1,10 @@
+{
+    "required_modules_remove": [],
+    "required_modules_install": [],
+    "optional_modules_install": [],
+    "optional_files_delete": [],
+    "required_files_delete": [
+      "admin/includes/classes/language.php",
+      "includes/modules/boxes/templates/tpl_bm_whats_new.php"
+    ]
+  }
