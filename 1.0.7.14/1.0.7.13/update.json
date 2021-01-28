@@ -3,10 +3,5 @@
     "required_modules_install": [],
     "optional_modules_install": [],
     "optional_files_delete": [],
-    "required_files_delete": [
-      "includes/modules/boxes/templates/tpl_bm_reviews.php",
-      "includes/modules/boxes/templates/tpl_bm_specials.php",
-      "includes/classes/category_tree.php",
-      "includes/classes/split_page_results.php"
-    ]
+    "required_files_delete": []
   }

@@ -1,6 +1,4 @@
-UPDATE hooks SET hooks_code = '_21_customer_data' WHERE hooks_code = '_23a_customer_data' AND hooks_group = 'system' AND hooks_site = 'shop';
-UPDATE hooks SET hooks_code = '_22_customer' WHERE hooks_code = '_23b_customer' AND hooks_group = 'system' AND hooks_site = 'shop';
-UPDATE hooks SET hooks_action = 'siteWideStart' WHERE hooks_action = 'injectAppTop' AND hooks_site = 'shop';
-INSERT INTO hooks (hooks_site, hooks_group, hooks_action, hooks_code, hooks_class, hooks_method) VALUES ('shop', 'index', 'siteWideStart', 'category_depth', '', 'category_tree::set_global_depth');
-INSERT INTO hooks (hooks_site, hooks_group, hooks_action, hooks_code, hooks_class, hooks_method) VALUES ('shop', 'system', 'startApplication', '_26_template_title', 'Application', 'set_template_title');
-DELETE FROM hooks WHERE hooks_class = 'Loader' AND hooks_method = 'oscTemplate' AND hooks_code = '_23_template';
+UPDATE hooks SET hooks_code = 'zz_redirect_success' WHERE hooks_code = '_50_redirect_success' AND hooks_action = 'startApplication';
+UPDATE hooks SET hooks_code = 'zz_redirect' WHERE hooks_code = '_06_redirect' AND hooks_action = 'postLogin';
+UPDATE hooks SET hooks_code = 'zz_redirect' WHERE hooks_code = '_04_redirect' AND hooks_action = 'postRegistration';
+UPDATE hooks SET hooks_code = 'zz_redirect' WHERE hooks_code = 'redirect' AND hooks_action = 'loginRequiredStart';
