@@ -11,7 +11,7 @@
 ## Upload update.zip
 or
 ## Perform the following file changes in each commit:
-* (https://github.com/gburton/CE-Phoenix/compare/1.0.7.18...1.0.8.0)
+* (https://github.com/CE-PhoenixCart/PhoenixCart/compare/1.0.7.18...1.0.8.0)
 
 ## REQUIRED New Modules to Turn On (install):
 * None
