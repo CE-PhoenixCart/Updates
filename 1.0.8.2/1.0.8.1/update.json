@@ -1,0 +1,11 @@
+{
+    "required_modules_remove": [],
+    "required_modules_install": [],
+    "optional_modules_install": [],
+    "optional_files_delete": [
+        "admin/.htpasswd_oscommerce",
+        "includes/system/segments/checkout/after.php",
+        "includes/system/segments/checkout/reset.php"
+    ],
+    "required_files_delete": []
+}
