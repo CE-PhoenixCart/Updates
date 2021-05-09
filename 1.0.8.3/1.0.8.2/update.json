@@ -1,0 +1,9 @@
+{
+    "required_modules_remove": [],
+    "required_modules_install": [],
+    "optional_modules_install": [],
+    "optional_files_delete": [
+        "includes/system/versioned/1.0.8.1/pull_down.php"
+    ],
+    "required_files_delete": []
+}
