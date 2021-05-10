@@ -2,7 +2,7 @@ UPDATE configuration SET set_function = REPLACE(set_function, 'tep_cfg_select_op
 
 UPDATE configuration SET set_function = 'Config::select_template(' WHERE set_function = 'tep_cfg_select_template(';
 UPDATE configuration SET set_function = 'Config::select_country(' WHERE set_function = 'tep_cfg_pull_down_country_list(';
-UPDATE configuration SET set_function = 'Config::select_zone_by(' WHERE set_function = 'tep_cfg_pull_down_zone_list(';
+UPDATE configuration SET set_function = 'Config::select_zone_by(' WHERE set_function = 'tep_cfg_pull_down_zone_list(STORE_COUNTRY, ';
 UPDATE configuration SET set_function = 'Config::draw_textarea(' WHERE set_function = 'tep_cfg_textarea(';
 UPDATE configuration SET set_function = 'Config::select_geo_zone(' WHERE set_function = 'tep_cfg_pull_down_zone_classes(';
 UPDATE configuration SET set_function = 'Config::select_order_status(' WHERE set_function = 'tep_cfg_pull_down_order_statuses(';
