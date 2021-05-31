@@ -1,0 +1,12 @@
+{
+    "required_modules_remove": [],
+    "required_modules_install": [],
+    "optional_modules_install": [],
+    "optional_files_delete": [
+        "admin/includes/classes/passwordhash.php",
+        "install/includes/functions/database.php",
+        "install/includes/functions/general.php",
+        "install/includes/functions/html_output.php"
+    ],
+    "required_files_delete": []
+}
