@@ -24,7 +24,10 @@ or
 
 ## OPTIONAL Files To Delete (You can choose to delete these if you are not using them):
 * admin/categories.php
+* admin/includes/boxes/catalog_categories.php
 * admin/includes/languages/english/categories.php
+* admin/includes/languages/english/modules/boxes/catalog_categories.php
+* includes/hooks/admin/categories/focusRequired.php
 
 ## REQUIRED Files to delete (You MUST delete these):
 * None
