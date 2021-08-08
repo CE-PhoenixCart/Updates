@@ -27,7 +27,7 @@ or
 * admin/includes/boxes/catalog_categories.php
 * admin/includes/languages/english/categories.php
 * admin/includes/languages/english/modules/boxes/catalog_categories.php
-* includes/hooks/admin/categories/focusRequired.php
+* includes/hooks/admin/categories/focusRequiredTab.php
 
 ## REQUIRED Files to delete (You MUST delete these):
 * None
