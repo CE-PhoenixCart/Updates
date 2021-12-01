@@ -6,7 +6,7 @@
 * None
 
 ## REQUIRED SQL:
-* https://github.com/CE-PhoenixCart/Updates/raw/master/1.0.8.8/1.0.8.7/update.sql
+* None
 
 ## Upload https://github.com/CE-PhoenixCart/Updates/raw/master/1.0.8.8/1.0.8.7/update.zip
 or
