@@ -1,0 +1,16 @@
+{
+    "required_modules_remove": [],
+    "required_modules_install": [],
+    "optional_modules_install": [
+      {
+        "set": "customer_data",
+        "modules":  [
+          "cd_matc.php"
+        ]
+      }
+    ],
+    "optional_files_delete": [],
+    "required_files_delete": [
+      "templates/default/includes/hooks/shop/siteWide/MATC.php"
+    ]
+}
