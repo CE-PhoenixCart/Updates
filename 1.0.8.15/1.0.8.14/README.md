@@ -23,7 +23,7 @@ or
 * Customer Data > MATC
 
 ## OPTIONAL Files To Delete (You can choose to delete these if you are not using them):
-* None
+* includes/languages/english/hooks/shop/siteWide/MATC.php
 
 ## REQUIRED Files to delete (You MUST delete these):
 * templates/default/includes/hooks/shop/siteWide/MATC.php

@@ -9,7 +9,9 @@
         ]
       }
     ],
-    "optional_files_delete": [],
+    "optional_files_delete": [
+      "includes/languages/english/hooks/shop/siteWide/MATC.php"
+    ],
     "required_files_delete": [
       "templates/default/includes/hooks/shop/siteWide/MATC.php"
     ]
