@@ -1,0 +1,1 @@
+INSERT INTO hooks (hooks_site, hooks_group, hooks_action, hooks_code, hooks_class, hooks_method) VALUES ('admin', 'modules', 'injectBodyStart', 'update_table_definition', '', 'cfg_modules::hook_injectBodyStart');

@@ -1,0 +1,19 @@
+{
+    "required_modules_remove": [],
+    "required_modules_install": [],
+    "optional_modules_install": [],
+    "optional_files_delete": [
+        "admin/includes/languages/english/modules/boxes/layout.php",
+        "admin/includes/languages/english/modules/boxes/layout_pi.php",
+        "admin/includes/languages/english/modules/boxes/modules_content.php",
+        "admin/includes/languages/english/modules_content.php",
+        "admin/includes/languages/english/modules_pi.php",
+        "admin/modules_content.php",
+        "admin/modules_pi.php"
+    ],
+    "required_files_delete": [
+        "admin/includes/boxes/layout.php",
+        "admin/includes/boxes/layout_pi.php",
+        "admin/includes/boxes/modules_content.php"
+    ]
+}
