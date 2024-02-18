@@ -1,0 +1,13 @@
+{
+    "required_modules_remove": [
+	"header_tags/ht_datepicker_jquery.php"
+    ],
+    "required_modules_install": [],
+    "optional_modules_install": [],
+    "optional_files_delete": [
+        "includes/modules/header_tags/ht_datepicker_jquery.php",
+	"includes/languages/english/modules/header_tags/ht_datepicker_jquery.php"
+    ],
+    "required_files_delete": []
+}
+
