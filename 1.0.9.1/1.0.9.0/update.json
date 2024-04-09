@@ -1,0 +1,28 @@
+{
+    "required_modules_remove": [],
+    "required_modules_install": [],
+    "optional_modules_install": [],
+    "optional_files_delete": [],
+    "required_files_delete": [
+      "admin/includes/functions/autoloader.php",
+      "admin/includes/functions/compatibility.php",
+      "admin/includes/functions/database.php",
+      "admin/includes/functions/general.php",
+      "admin/includes/functions/html_output.php",
+      "admin/includes/functions/languages.php",
+      "admin/includes/functions/password_funcs.php",
+      "admin/includes/functions/sessions.php",
+      "admin/includes/functions/validations.php",
+      "includes/functions/autoloader.php",
+      "includes/functions/database.php",
+      "includes/functions/general.php",
+      "includes/functions/href_link.php",
+      "includes/functions/html_output.php",
+      "includes/functions/image.php",
+      "includes/functions/password_funcs.php",
+      "includes/functions/sessions.php",
+      "includes/functions/validations.php",
+      "includes/system/versioned/1.0.7.9/osc_template.php"
+    ]
+}
+
