@@ -1,0 +1,14 @@
+{
+    "required_modules_remove": [],
+    "required_modules_install": [],
+    "optional_modules_install": [],
+    "optional_files_delete": [],
+    "required_files_delete": [
+      "admin/images/cal_close_small.gif",
+      "admin/images/cal_date_down.gif",
+      "admin/images/cal_date_over.gif",
+      "admin/images/cal_date_up.gif",
+      "admin/images/cal_del_small.gif"
+    ]
+}
+
