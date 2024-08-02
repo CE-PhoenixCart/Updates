@@ -1,0 +1,19 @@
+{
+    "required_modules_remove": [],
+    "required_modules_install": [
+        "includes/modules/content/contact_us/cm_cu_title.php",
+        "includes/modules/content/contact_us/cm_cu_modular.php",
+        "includes/modules/pi/contact_us/cu_form.php",
+    ],
+    "optional_modules_install": [
+        "includes/modules/pi/contact_us/cu_text.php",
+    ],
+    "optional_files_delete": [],
+    "required_files_delete": [
+        "admin/define_language.php",
+        "admin/includes/boxes/tools_define_language.php",
+        "admin/includes/languages/english/define_language.php",
+        "admin/includes/languages/english/modules/boxes/tools_define_language.php",
+        "includes/languages/english/info_shopping_cart.php",
+    ]
+}
